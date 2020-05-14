@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  width: 500px;
+  height: 70vh;
+  border: 2px solid black;
+}
+
+.message-box {
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: white;
+}
+
+.message-form {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.message-input {
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.title {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.mayur-msg {
+  text-align: left;
+  width: 50%;
+  color: maroon;
+}
+
+.priy-msg {
+  text-align: right;
+  padding-left: 50%;
+  overflow-wrap: break-word;
+  color: green;
+}
+
+.user-msg {
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
